@@ -110,16 +110,6 @@ body {
     animation: moveDown 1s ease-in-out forwards;
     opacity: 0;
   }
-  section.hero .down-arrow {
-    stroke: black;
-    position: absolute;
-    bottom: 8em;
-    width: 1em;
-    animation: moveArrow 1s alternate-reverse infinite;
-  }
-  section.hero .down-arrow path {
-    fill: white;
-  }
   
   .more-info img {
     margin-top: 7em;
