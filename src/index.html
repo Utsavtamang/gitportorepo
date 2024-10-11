@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./output.css" />
+    <link rel="stylesheet" href="../assets/custom/style.css" />
+    <link href="https://cdn.tailwindcss.com" rel="stylesheet">
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Anton&display=swap");
+    </style>
+    <title>tmgutsav</title>
+  </head>
+  <body>
+    <main
+      class="profile-card flex flex-col items-center translate-y-40"
+    >
+      <img
+        src="./images/profile/me.jpg"
+        class="hero-image h-36 w-36 rounded-full"
+        alt=""
+      />
+
+      <section class="hero-section mt-4">
+        <div class="naming-section items-center">
+          <div class="hero-name text-center text-5xl mt-2">
+            <h3>Utsav Tamang</h3>
+          </div>
+          <div class="hero-quote text-4xl text-center mt-2">
+            <p>Just an ordinary person</p>
+          </div>
+        </div>
+
+        <nav class="navbar text-xl mt-9">
+          <div class="flex p-0 items-center justify-between">
+            <li class="list-none">
+              <a class="text-purple-900" href="./links/about.html" onclick="message()">AboutME</a></li>
+
+            <li class="list-none">
+              <a class="text-purple-900" href="./links/academics.html" onclick="message()">Academics</a></li>
+
+            <li class="list-none">
+              <a class="text-purple-900" href="./links/projects.html" onclick="message()">Projects</a></li>
+          </div>
+        </nav>
+
+        <div
+          class="contacts flex flex-row list-none mt-9 justify-between border-purple-900 w-4/5"
+        >
+          <li>
+            <a href="https://github.com/Utsavtamang">
+              <img
+                class="h-12 w-auto"
+                src="./images/GitHub-Logo.wine.png"
+                alt="GitHub"
+              />
+            </a>
+          </li>
+
+          <li>
+            <a href="https://www.facebook.com/hunger.hunger.71868">
+              <img
+                class="h-12 w-auto"
+                src="./images/Facebook-f_Logo-Blue-Logo.wine.png"
+                alt="Facebook"
+              />
+            </a>
+          </li>
+
+          <li>
+            <a href="https://www.instagram.com/tmgutsav/">
+              <img
+                class="h-12 w-auto"
+                src="./images/Instagram-Logo.wine.png"
+                alt="Instagram"
+              />
+            </a>
+          </li>
+        </div>
+      </section>
+    </main>
+
+    <script>
+      function message() {
+        alert("Coming_Soon!!!");
+        event.preventDefault();
+        return false;
+      }
+    </script>
+  </body>
+</html>

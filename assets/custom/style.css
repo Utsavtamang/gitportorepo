@@ -1,0 +1,31 @@
+
+.hero-section .hero-name {
+    font-family: "Anton", sans-serif;
+  }
+  .hero-section .hero-quote {
+    font-family: cursive;
+    font-style: normal;
+  }
+  .navbar div li a {
+      text-decoration: none;
+  }
+  .contacts {
+    border-width: 1.5px;
+    border-radius: 10px;
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(10px);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);  
+    transform: translateX(12%);
+    animation: slide-up 1.2s ease-in-out;
+  }
+  
+  
+  
+  @keyframes slide-up {
+    0% {
+      transform: translate(12% ,50%);
+    }
+    100% {
+      transform: translate(12% ,0%);
+    }
+  }
