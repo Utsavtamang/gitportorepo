@@ -2,8 +2,7 @@
 module.exports = {
   content: [
     './src/**/*.{html,js}',
-    './src/index.html',
-    './node_modules/@fortawesome/**/*.js'
+    './index.html',
   ],
   theme: {
     extend: {},
